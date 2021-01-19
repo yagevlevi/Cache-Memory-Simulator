@@ -4,9 +4,12 @@ Task: Write a cache simulator in csim.c that takes a valgrind memory trace as in
 
 Valgrind memory traces have the following form:
 
-I 0400d7d4,8
+I 0400d7d4,8                                                                                                                                                                  
+
  M 0421c7f0,4
+ 
  L 04f6b868,8
+ 
  S 7ff0005c8,8
  
 Each line denotes one or two memory accesses. The format of each line is
